@@ -1,0 +1,12 @@
+Explanation
+TCPConnectionManager Class:
+Manages the TCP connection using NWConnection.
+Handles connecting, sending data, and receiving data.
+Uses a DispatchQueue for network operations.
+Publishes received data to update the UI.
+ContentView Struct:
+Provides a user interface to interact with the TCP connection manager.
+Allows input for host, port, and message.
+Connects, sends messages, and disconnects using buttons.
+Displays received data.
+This setup should give you a basic TCP client in a SwiftUI app using Apple's Network framework. You can expand on this by adding more error handling, support for different data formats, or additional UI elements as needed.
